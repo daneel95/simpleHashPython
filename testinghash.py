@@ -9,8 +9,7 @@ def calculate_hash_python(string):
     
     return hs
 
-def calculate_hash_with_sleep(string):
-    time.sleep(threadSleepValue)
+def calculate_hash_with_sleep(string, sleep_value):
+    time.sleep(sleep_value)
     
     return calculate_hash_python(string)
-	
